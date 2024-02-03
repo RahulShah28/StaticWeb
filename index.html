@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="index_page.css">
+</head>
+
+<body>
+    <div id="sectionHome">
+        <div class="bg-container d-flex flex-column justify-content-end">
+            <div class="tourism-card">
+                <h1>TOURISM</h1>
+                <p>Plan wherever you want to go</p>
+                <button class="btn btn-primary" onclick="display('sectionFavouritePlacespage')">GET STARTED</button>
+            </div>
+        </div>
+    </div>
+    <div id="sectionFavouritePlacespage">
+        <div class="favourite-places-bg-container">
+            <h1 class="favourite-places-heading">
+                Favourite Places
+            </h1>
+            <div class="favourite-places-card-container d-flex flex-row" onclick="display('sectiontajmahaldetailedview')">
+                <div>
+                    <h1 class="favourite-places-card-heading"> Taj Mahal</h1>
+                    <p class="favourite-places-card-description">The Taj Mahal is an ivory-white marble mausoleum on the south bank of the Yamuna river in the Indian city of Agra. It was commissioned in 1632 by the Mughal emperor, Shah Jahan (reigned from 1628 to 1658), to house the tomb of his favourite wife, Mumtaz Mahal.</p>
+                </div> <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/tajmahal-img.png" class="favourite-place-card-image" />
+            </div>
+            <div class="favourite-places-card-container d-flex flex-row" onclick="display('sectiongoldentempledetailedview')">
+                <div>
+                    <h1 class="favourite-places-card-heading"> Golden Temple</h1>
+                    <p class="favourite-places-card-description">The Golden temple is located in the holy city of the Sikhs, Amritsar. The Golden temple is famous for its full golden dome, it is one of the most sacred pilgrim spots for Sikhs. The Mandir is built on a 67-ft square of marble and is a two storied structure</p>
+                </div> <img src="https://c0.wallpaperflare.com/preview/423/157/277/golden-temple-amritsar-punjab.jpg" class="favourite-place-card-image" />
+            </div>
+            <div class="favourite-places-card-container d-flex flex-row" onclick="display('sectiongatewayofindiadetailedview')">
+                <div>
+                    <h1 class="favourite-places-card-heading"> Gate Way Of India</h1>
+                    <p class="favourite-places-card-description">The Gateway of India is an arch monument built during the 20th century in Bombay, India. The monument was erected to commemorate the landing of King George V and Queen Mary at Apollo Bunder on their visit to India in 1911.</p>
+                </div>
+                <img src="https://images.unsplash.com/photo-1570168007204-dfb528c6958f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=435&q=80" class="favourite-place-card-image" />
+            </div>
+            <div class="favourite-places-card-container d-flex flex-row" onclick="display('sectionkedarnathdetailedview')">
+                <div>
+                    <h1 class="favourite-places-card-heading">Kedarnath</h1>
+                    <p class="favourite-places-card-description">Kedarnath temple is one of the sacred pilgrimage centre in Northern India, located on the bank of Mandakini river at an altitude of 3584 meters above sea level. The historical name of this region is "Kedar Khand".</p>
+                </div> <img src="https://images.unsplash.com/photo-1612438214708-f428a707dd4e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80" class="favourite-place-card-image" />
+            </div>
+            <div class="button-dec">
+                <button class="  button-b" onclick="display('sectionHome')">previous page</button>
+            </div>
+        </div>
+    </div>
+    <div id="sectiontajmahaldetailedview">
+        <div class="detailed-view-bg-container">
+            <h1 class="detailed-view-heading">Detailed View</h1>
+            <div class="detailed-view-card-container">
+                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="https://c4.wallpaperflare.com/wallpaper/374/240/843/taj-mahal-4k-background-wallpaper-preview.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://c4.wallpaperflare.com/wallpaper/769/657/193/taj-mahal-agra-india-wallpaper-preview.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://c4.wallpaperflare.com/wallpaper/320/1011/669/taj-mahal-agra-india-4k-wallpaper-preview.jpg" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+                <div class="detailed-view-text-container">
+                    <h1 lass="detailed-view-card-heading">Taj Mahal</h1>
+                    <p class="detailed-view-card-description">
+                        Taj Mahal is a beautiful and most attractive historical place in India.
+                        It is a cultural monument of India which was built by the King Shah Jahan
+                        in the memory of his wife (Mumtaz Mahal) after her death. It is one of the
+                        Seven Wonders of the World. It is the most beautiful building made by the white marble.
+                    <ul class="detailed-view-card-description unordered-list">
+                        <li>Agra Fort</li>
+                        <li>Fatehpur Sikri</li>
+                        <li>Mehtab Bagh</li>
+                        <li>Khas Mahal</li>
+
+                    </ul>
+                </div>
+            </div>
+            <div class="button-dec">
+
+                <button class="button-b " onclick="display('sectionFavouritePlacespage')">Back</button>
+            </div>
+        </div>
+    </div>
+    <div id="sectiongoldentempledetailedview">
+        <div class="detailed-view-bg-container">
+            <h1 class="detailed-view-heading">Detailed View</h1>
+            <div class="detailed-view-card-container">
+                <div id="goldenTempleCarousel" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#goldenTempleCarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#goldenTempleCarousel" data-slide-to="1"></li>
+                        <li data-target="#goldenTempleCarousel" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/goldentemple1-img.png" class="d-block w-100" alt="..." />
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/goldentemple2-img.png" class="d-block w-100" alt="..." />
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/goldentemple3-img.png" class="d-block w-100" alt="..." />
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#goldenTempleCarousel" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#goldenTempleCarousel" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+                <div class="detailed-view-card-text-container">
+                    <h1 class="detailed-view-card-heading">Golden Temple</h1>
+                    <p class="detailed-view-card-description">
+                        The Golden Temple, also known as Harmandir Sahib is a gurdwara
+                        located in the city of Amritsar, Punjab, India. There are many
+                        places to visit Near Golden Temple like Jallianwala Bagh, Wagah Border, Harike Wetland, Bathinda Fort.
+                    </p>
+                    <ul class="detailed-view-card-description unordered-list">
+                        <li>Jallianwala Bagh</li>
+                        <li>Wagah Border</li>
+                        <li>Durgiana Temple</li>
+                        <li>Akal Takht</li>
+
+                    </ul>
+                </div>
+            </div>
+            <div class="button-dec">
+
+                <button class="button-b " onclick="display('sectionFavouritePlacespage')">Back</button>
+            </div>
+        </div>
+    </div>
+    <div id="sectiongatewayofindiadetailedview">
+        <div class="detailed-view-bg-container">
+            <h1 class="detailed-view-heading">Detailed View</h1>
+            <div class="detailed-view-card-container">
+                <div id="GateWayofIndiaCarousel" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#GateWayofIndiaCarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#GateWayofIndiaCarousel" data-slide-to="1"></li>
+                        <li data-target="#GateWayofIndiaCarousel" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="https://wallpapers.com/images/high/gateway-to-india-crowds-gray-sky-fckmzgafyxic2kts.webp" class="d-block w-100" alt="..." />
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://wallpapers.com/images/high/gateway-to-india-harbor-h29jydcuyxfuf8ku.webp" class="d-block w-100" alt="..." />
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://wallpapers.com/images/high/sunset-gateway-to-india-ki6ttyvzs8r58qhe.webp" class="d-block w-100" alt="..." />
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#GateWayofIndiaCarousel" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#GateWayofIndiaCarousel" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+                <div class="detailed-view-card-text-container">
+                    <h1 class="detailed-view-card-heading">Gate Way Of India</h1>
+                    <p class="detailed-view-card-description">
+                        The Gateway of India is an arch monument built during the 20th century in Bombay,
+                        India. The monument was erected to commemorate the landing of King George V and Queen Mary
+                        at Apollo Bunder on their visit to India in 1911.
+                    </p>
+                    <ul class="detailed-view-card-description unordered-list">
+                        <li>Marine Drive.</li>
+                        <li>Bandra-Worli Sea Link</li>
+                        <li>Kanheri Caves.</li>
+                        <li>Shree Siddhivinayak.</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="button-dec">
+                <button class="button-b " onclick="display('sectionFavouritePlacespage')">Back</button>
+            </div>
+        </div>
+    </div>
+    <div id="sectionkedarnathdetailedview">
+        <div class="detailed-view-bg-container">
+            <h1 class="detailed-view-heading">Detailed View</h1>
+            <div class="detailed-view-card-container">
+                <div id="kedarnathCarousel" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#kedarnathCarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#kedarnathCarousel" data-slide-to="1"></li>
+                        <li data-target="#kedarnathCarousel" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="https://wallpapers.com/images/high/kedarnath-temple-at-winter-4k-4aeycc08vbpn8ay4.webp" class="d-block w-100" alt="..." />
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://wallpapers.com/images/high/kedarnath-badri-kedar-temple-market-4k-8uyuoe6uznj5hfgr.webp" class="d-block w-100" alt="..." />
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://wallpapers.com/images/high/kedarnath-badrinath-temple-4k-2vfh96ikteoow1m9.webp" class="d-block w-100" alt="..." />
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#kedarnathCarousel" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#kedarnathCarousel" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+                <div class="detailed-view-card-text-container">
+                    <h1 class="detailed-view-card-heading">Kedarnath</h1>
+                    <p class="detailed-view-card-description">
+                        Kedarnath temple is one of the sacred pilgrimage centre in Northern India,
+                        located on the bank of Mandakini river at an altitude of 3584 meters above sea level.
+                        The historical name of this region is "Kedar Khand".
+                    </p>
+                    <ul class="detailed-view-card-description unordered-list">
+                        <li> Kedarnath temple</li>
+                        <li>Vasuki Tal</li>
+                        <li>Shankaracharya Samadhi</li>
+                        <li>Agastyamuni</li>
+                        <li>Sonprayag</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="button-dec">
+                <button class="button-b " onclick="display('sectionFavouritePlacespage')">Back</button>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+</body>
+
+</html>
